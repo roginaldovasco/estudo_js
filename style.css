@@ -10,7 +10,7 @@
 
 #borda, #borda2 {
     border: 1px solid black;
-    width: 300px;
+    width: 400px;
     height: 150px;
     margin: 5px;
     background-color: lightgray;
@@ -24,7 +24,7 @@ p {
 
 #ivisual, #ipreco, #imudar, #inome, #iparente, #iidade, #sel {
     border: 1px solid black;
-    width: 200px;
+    width: 380px;
     height: 20px;
     margin: 5px;
     background-color: white;
@@ -35,10 +35,13 @@ p {
 #ibotao {
     border: 1px solid black;
     width: 200px;
-    height: 20px;
+    height: 23px;
     margin: 5px;
-    background-color: white;
+    background-color: black;
     padding-left: 6px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
 }
 
 #isel {

@@ -11,7 +11,7 @@
 #borda, #borda2 {
     border: 1px solid black;
     width: 300px;
-    height: 120px;
+    height: 150px;
     margin: 5px;
     background-color: lightgray;
 }
@@ -29,6 +29,16 @@ p {
     margin: 5px;
     background-color: white;
     padding-left: 6px;
+    text-align: center;
+}
+
+#ibotao {
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    background-color: white;
+    padding-left: 6px;
 }
 
 #isel {
@@ -36,4 +46,5 @@ p {
     width: 200px;
     height: 20px;
     margin: 5px;
+    text-align: center;
 }

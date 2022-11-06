@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+#borda, #borda2 {
+    border: 1px solid black;
+    width: 300px;
+    height: 120px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+}
+
+#ivisual, #ipreco, #imudar, #inome, #iparente, #iidade, #sel {
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    background-color: white;
+    padding-left: 6px;
+}
+
+#isel {
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+}

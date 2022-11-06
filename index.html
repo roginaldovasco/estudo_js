@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="borda">
+        <p>Pesquisa com Botão</p>
+        <select name="sel" id="isel">
+            <option value="" selected>---selecione---</option>
+            <option value="celta">celta</option>
+            <option value="palio">palio</option>
+            <option value="gol">gol</option>
+        </select>
+        <input type="button" value="Procurar" onclick="teste()">
+        <div id="ivisual"></div>
+        <div id="ipreco"></div>
+    </div>
+
+    <div id="borda2">
+        <p>Pesquisa ao preencher</p>
+        <input type="text" id="inome" onchange="mudar()">
+        <div id="iparente"></div>
+        <div id="iidade"></div>
+    </div>  
+    
+
+<script src="script.js"></script>
+</body>
+</html>

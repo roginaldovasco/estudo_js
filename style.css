@@ -17,8 +17,9 @@ body {
     width: 350px;
     height: 160px;
     margin: 5px;
-    background-color: lightslategray;
+    background-color: rgb(165, 167, 168);
     border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
 }
 
 p {
